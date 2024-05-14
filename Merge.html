@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <title>Test Merge Collections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Merge Collections</h2>
+    <label for="collection1">Collection 1 min to max (comma-separated):</label><br>
+    <input type="text" id="collection1" value="1,3,7,11,13"><br>
+    <label for="collection2">Collection 2 min to max (comma-separated):</label><br>
+    <input type="text" id="collection2" value="2,4,8,10,14"><br>
+    <label for="collection3">Collection 3 max to min (comma-separated):</label><br>
+    <input type="text" id="collection3" value="15,12,9,6,5"><br><br>
+    <button onclick="mergeCollections()">Merge</button>
+
+    <div id="result"></div>
+
+</body>
+</html>
